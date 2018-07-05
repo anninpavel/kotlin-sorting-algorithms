@@ -32,6 +32,8 @@ public interface SortCollection<T> {
     public operator fun get(index: Int): T
 
     public operator fun set(index: Int, value: T): Unit
+
+    public operator fun iterator(): Iterator<T>
 }
 
 /** @author Pavel Annin (https://github.com/anninpavel). */

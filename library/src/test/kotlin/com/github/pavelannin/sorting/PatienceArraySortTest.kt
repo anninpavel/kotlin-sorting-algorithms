@@ -22,23 +22,9 @@
  * SOFTWARE.
  */
 
-package com.github.pavelannin.sorting.core
+package com.github.pavelannin.sorting
+
+import com.github.pavelannin.sorting.core.AbstractArraySortTest
 
 /** @author Pavel Annin (https://github.com/anninpavel). */
-public class ArraySortCollection<T>(val array: Array<T>) : SortCollection<T> {
-
-    override val size: Int = array.size
-
-    override fun get(index: Int): T = array[index]
-
-    override fun set(index: Int, value: T) {
-        array[index] = value
-    }
-
-    override fun iterator(): Iterator<T> = array.iterator()
-}
-
-/** @author Pavel Annin (https://github.com/anninpavel). */
-internal fun <T> Array<T>.wrapSortCollection(): SortCollection<T> {
-    return ArraySortCollection(this)
-}
+class PatienceArraySortTest : AbstractArraySortTest<PatienceSort>(sort = PatienceSort())
