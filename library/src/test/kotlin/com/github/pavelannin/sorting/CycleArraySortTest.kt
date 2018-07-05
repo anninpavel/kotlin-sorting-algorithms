@@ -22,31 +22,9 @@
  * SOFTWARE.
  */
 
-package com.github.pavelannin.sorting.core
+package com.github.pavelannin.sorting
+
+import com.github.pavelannin.sorting.core.AbstractArraySortTest
 
 /** @author Pavel Annin (https://github.com/anninpavel). */
-public interface SortCollection<T> {
-
-    public val size: Int
-
-    public operator fun get(index: Int): T
-
-    public operator fun set(index: Int, value: T): Unit
-}
-
-/** @author Pavel Annin (https://github.com/anninpavel). */
-internal fun <T> SortCollection<T>.swap(firstIndex: Int, secondIndex: Int) {
-    this[firstIndex] = this[secondIndex].also { this[secondIndex] = this@swap[firstIndex] }
-}
-
-/** @author Pavel Annin (https://github.com/anninpavel). */
-internal fun <T> SortCollection<T>.copyOfRange(fromIndex: Int, toIndex: Int): MutableList<T> {
-    return (fromIndex..toIndex).map { this[it] }.toMutableList()
-}
-
-/** @author Pavel Annin (https://github.com/anninpavel). */
-internal fun <T> SortCollection<T>.replace(element: T, index: Int): T {
-    val previousElement = this[index]
-    this[index] = element
-    return previousElement
-}
+class CycleArraySortTest : AbstractArraySortTest<CycleSort>(sort = CycleSort())
