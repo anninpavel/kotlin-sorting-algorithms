@@ -5,21 +5,21 @@
 The repository presents the implementation of sorting algorithms in the Kotlin programming language.
 
 ## The Sorting Algorithms
-* [Bitonic Sort](library/src/main/kotlin/com/github/pavelannin/sorting/BitonicSort.kt)
-* [Bogo Sort](library/src/main/kotlin/com/github/pavelannin/sorting/BogoSort.kt)
-* [Buddle Sort](library/src/main/kotlin/com/github/pavelannin/sorting/BuddleSort.kt)
-* [Cocktail Shaker Sort](library/src/main/kotlin/com/github/pavelannin/sorting/CocktailShakerSort.kt)
-* [Comb Sort](library/src/main/kotlin/com/github/pavelannin/sorting/CombSort.kt)
-* [Cycle Sort](library/src/main/kotlin/com/github/pavelannin/sorting/CycleSort.kt)
-* [Gnome Sort](library/src/main/kotlin/com/github/pavelannin/sorting/GnomeSort.kt)
-* [Heap Sort](library/src/main/kotlin/com/github/pavelannin/sorting/HeapSort.kt)
-* [Insertion Sort](library/src/main/kotlin/com/github/pavelannin/sorting/InsertionSort.kt)
-* [Merge Sort](library/src/main/kotlin/com/github/pavelannin/sorting/MergeSort.kt)
-* [Pancake Sort](library/src/main/kotlin/com/github/pavelannin/sorting/PancakeSort.kt)
-* [Patience Sort](library/src/main/kotlin/com/github/pavelannin/sorting/PatienceSort.kt)
-* [Quick Sort](library/src/main/kotlin/com/github/pavelannin/sorting/QuickSort.kt)
-* [Selection Sort](library/src/main/kotlin/com/github/pavelannin/sorting/SelectionSort.kt)
-* [Shell Sort](library/src/main/kotlin/com/github/pavelannin/sorting/ShellSort.kt)
+* [Bitonic Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/BitonicSort.kt)
+* [Bogo Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/BogoSort.kt)
+* [Buddle Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/BuddleSort.kt)
+* [Cocktail Shaker Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/CocktailShakerSort.kt)
+* [Comb Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/CombSort.kt)
+* [Cycle Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/CycleSort.kt)
+* [Gnome Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/GnomeSort.kt)
+* [Heap Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/HeapSort.kt)
+* [Insertion Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/InsertionSort.kt)
+* [Merge Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/MergeSort.kt)
+* [Pancake Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/PancakeSort.kt)
+* [Patience Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/PatienceSort.kt)
+* [Quick Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/QuickSort.kt)
+* [Selection Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/SelectionSort.kt)
+* [Shell Sort](kotlin-sorting-algorithms/src/main/kotlin/com/github/pavelannin/sorting/ShellSort.kt)
 
 ## Using
 Gradle:
