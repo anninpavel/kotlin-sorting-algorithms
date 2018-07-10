@@ -33,6 +33,7 @@
 *.iws
 atlassian-ide-plugin.xml
 modules.xml
+local.properties
 
 ###############
 ###  Java   ###

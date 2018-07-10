@@ -25,24 +25,38 @@
 buildscript {
 
     ext.kotlin_version = '1.2.51'
+    ext.bintray_version = '1.8.4'
+
+    ext.library_version = '1.0.0'
+    ext.library_group_id = 'com.github.anninpavel'
+    ext.library_url = 'https://github.com/anninpavel/kotlin-sorting-algorithms'
+
+    ext.bintray_repo = 'algorithms'
+    ext.bintray_name = 'kotlin-sorting-algorithms'
+    ext.bintray_license = 'MIT'
+    ext.bintray_vcs_url = 'https://github.com/anninpavel/kotlin-sorting-algorithms.git'
+
 
     repositories {
         mavenCentral()
+        jcenter()
     }
 
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:$bintray_version"
     }
 }
 
 allprojects {
     apply plugin: 'kotlin'
 
-    group 'com.github.anninpavel'
-    version '1.0'
+    group library_group_id
+    version library_version
 
     repositories {
         mavenCentral()
+        jcenter()
     }
 }
 

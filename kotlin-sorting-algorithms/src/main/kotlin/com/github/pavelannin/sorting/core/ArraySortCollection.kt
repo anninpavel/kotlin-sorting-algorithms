@@ -39,6 +39,6 @@ public class ArraySortCollection<T>(val array: Array<T>) : SortCollection<T> {
 }
 
 /** @author Pavel Annin (https://github.com/anninpavel). */
-internal fun <T> Array<T>.wrapSortCollection(): SortCollection<T> {
+fun <T> Array<T>.wrapSortCollection(): SortCollection<T> {
     return ArraySortCollection(this)
 }

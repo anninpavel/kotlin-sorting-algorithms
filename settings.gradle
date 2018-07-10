@@ -25,5 +25,5 @@
 rootProject.name = 'sorting-algorithms'
 
 include(
-        ':library'
+        ':kotlin-sorting-algorithms'
 )
